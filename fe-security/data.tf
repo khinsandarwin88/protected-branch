@@ -4,7 +4,7 @@ data "terraform_remote_state" "fe_network" {
   config = {
     organization = var.tfc_organization
     workspaces = {
-      name = var.fe_network_workspace
+      name = "protected-branch"
     }
   }
 }
