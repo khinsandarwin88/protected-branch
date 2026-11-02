@@ -16,3 +16,5 @@ variable "tfc_organization" {
 variable "fe_network_workspace" {
   default = "fe-network-ws"
 }
+
+# add comments in variables.tf
